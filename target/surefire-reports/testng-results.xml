@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-02T22:47:17 IST" name="Suite" finished-at="2024-10-02T22:48:01 IST" duration-ms="43935">
+    <groups>
+    </groups>
+    <test started-at="2024-10-02T22:47:17 IST" name="Test" finished-at="2024-10-02T22:48:01 IST" duration-ms="43935">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:tests.LoginTest@564fabc8]" started-at="2024-10-02T22:47:18 IST" name="lunchbrowser" finished-at="2024-10-02T22:47:22 IST" duration-ms="4320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@564fabc8]" started-at="2024-10-02T22:47:22 IST" name="login" data-provider="getlogindata" finished-at="2024-10-02T22:47:35 IST" duration-ms="13484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chandanjena03@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chandan.123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@564fabc8]" started-at="2024-10-02T22:47:35 IST" name="closure" finished-at="2024-10-02T22:47:35 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:tests.LoginTest@564fabc8]" started-at="2024-10-02T22:47:35 IST" name="lunchbrowser" finished-at="2024-10-02T22:47:38 IST" duration-ms="2339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@564fabc8]" started-at="2024-10-02T22:47:38 IST" name="login" data-provider="getlogindata" finished-at="2024-10-02T22:48:01 IST" duration-ms="23393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test.123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@564fabc8]" started-at="2024-10-02T22:48:01 IST" name="closure" finished-at="2024-10-02T22:48:01 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.OrderTest">
+        <test-method signature="order()[pri:0, instance:tests.OrderTest@35cabb2a]" started-at="2024-10-02T22:47:18 IST" name="order" finished-at="2024-10-02T22:47:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order -->
+      </class> <!-- tests.OrderTest -->
+      <class name="tests.CartTest">
+        <test-method signature="cart()[pri:0, instance:tests.CartTest@5158b42f]" started-at="2024-10-02T22:47:17 IST" name="cart" finished-at="2024-10-02T22:47:17 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.RegisterTest">
+        <test-method signature="registration()[pri:0, instance:tests.RegisterTest@3a93b025]" started-at="2024-10-02T22:47:17 IST" name="registration" finished-at="2024-10-02T22:47:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+      </class> <!-- tests.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
